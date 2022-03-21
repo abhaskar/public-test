@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: akhil-test
-  description: Akhil Test
+  name: au-service-digital-identity
+  description: Digital Identity Service
   tags:
-    - javascript
-    - data
+    - typescript
+    - auth0
   links:
     - url: https://example.com/user
       title: Examples Users
@@ -30,7 +30,7 @@ metadata:
       icon: alert
 spec:
   type: service
-  lifecycle: experimental
-  owner: team-a
-  system: test-portal
+  lifecycle: production
+  owner: digital-au
+  system: digital-identity
   dependsOn: []
