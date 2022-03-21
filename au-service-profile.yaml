@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: au-service-digital-identity
-  description: Digital Identity Service
+  name: au-service-profile
+  description: Profile Service
   tags:
     - typescript
     - auth0
